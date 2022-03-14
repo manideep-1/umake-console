@@ -1,0 +1,340 @@
+.home-card:hover,.cust-btn:hover{
+  opacity: 0.8;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+.carousel-control-next{
+  max-width: 20px;
+}
+.carousel-control-prev{
+  max-width: 20px;
+}
+.size-btn:hover{
+  background-color: gray;
+}
+.size-btn div{
+  color: gray;
+}
+.size-btn:hover div{
+  color: white;
+}
+
+.size-btn {
+  display : block;
+  width: 40px;
+}
+.size-btn > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.size-btn > input + div{ /* DIV STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.size-btn > input:checked + div { /* (RADIO CHECKED) DIV STYLES */
+  background-color: gray;
+  color: white;
+}
+.wishlist div:hover {
+  background-color: crimson;
+  color: white;
+}
+.wishlist > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.wishlist > input + div{ /* DIV STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.wishlist > input:checked + div { /* (RADIO CHECKED) DIV STYLES */
+  background-color: crimson;
+  color: white;
+}
+.cart-add {
+  background-color: gray;
+  color: white;
+  cursor:pointer;
+}
+.cart-add:hover {
+  background-color: rgba(20,20,20);
+  color: black;
+  border-color: rgba(20,20,20);
+}
+.card > img + div div{
+  width: 0;
+}
+.card > img:hover + div div{
+  animation: card-hover 0.5s;
+  width: 100%;
+}
+@keyframes card-hover{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+
+}
+
+.gap{
+  padding:70px;
+}
+#orderscolor{
+  background-color: #f9f9f9;
+}
+
+/* Main component */
+.marginSet {
+  margin : 50px
+}
+
+/* Card component */
+.img_wrp {
+  display: inline-block;
+  position: relative;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* #cardsl
+{
+    justify-content: space-between;
+}
+.itemsindd:hover
+{
+  background-color:rgba(20,20,20);
+} */
+
+/* .faqs {
+	width: 100%;
+	max-width: 768px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.faqs .faq {
+	margin: 15px;
+	padding: 15px;
+	background-color: #FFF;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.faqs .faq .faq-question {
+	position: relative;
+	font-size: 20px;
+	padding-right: 80px;
+
+	transition: all 0.4s ease;
+}
+
+.faqs .faq .faq-question::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 30px;
+
+	background-image: url('./arrow-down-mint.svg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	transition: all 0.4s ease-out;
+}
+
+.faqs .faq .faq-answer {
+	opacity: 0;
+	max-height: 0;
+	overflow-y: hidden;
+	transition: all 0.4s ease-out;
+}
+
+.faqs .faq.open .faq-question {
+	margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+	transform: translateY(-50%) rotate(180deg);
+}
+
+.faqs .faq.open .faq-answer {
+	max-height: 1000px;
+	opacity: 1;
+} */
+/* ------------------------Manideep */
+
+.faqs {
+	width: 100%;
+	max-width: 768px;
+	margin: 5px auto;
+	padding: 15px;
+}
+
+.faqs .faq {
+	margin: 15px;
+	padding: 15px;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.faqs .faq .faq-question {
+	position: relative;
+	font-size: 15px;
+	padding-right: 80px;
+
+	
+}
+
+.faqs .faq .faq-question::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 30px;
+	background-image: url('./arrow-down-mint.svg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.faqs .faq .faq-answer {
+	opacity: 0;
+  max-height: 0;
+  font-size: 13px;
+  font-weight: bold;
+	overflow-y: hidden;
+}
+
+.faqs .faq.open .faq-question {
+	margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+	transform: translateY(-50%) rotate(180deg);
+}
+
+.faqs .faq.open .faq-answer {
+	
+	max-height: 1000px;
+	opacity: 1;
+}   
+
+.button {
+  font-size: 1em;
+  padding: 8px;
+  color: #fff;
+  /*border: 2px solid white;*/
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+  transition: opacity 5ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: white;
+  font-family: Tahoma, Arial, sans-serif;
+}
+/* .popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+} */
+.popup .close:hover {
+  color: #06D85F;
+}
+
+
+
+
+
+.itemsindd:hover
+{
+  background-color:rgba(20,20,20);
+}
+
+.tnbutton {
+  color: black;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  transition: all .2s ease-out 0s;
+}
+.tnbutton:hover > span {
+  top: -20px;
+  opacity: 0;
+}
+.tnbutton:hover > i {
+  opacity: 1;
+  font-size: 22px;
+  top: 50%;
+}
+
+.tnbutton-name,
+.tnbutton-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: all .3s ease-out;
+  position: absolute;
+}
+
+.tnbutton-name {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.tnbutton-icon {
+  opacity: 0;
+}

@@ -1,0 +1,128 @@
+@media screen and (max-width: 767px) {
+  
+  #loginbox{
+    width: 100%;
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  }
+  @media screen and (min-width: 768px) {
+    
+  #loginbox{
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    height:500px;
+    width: 75%;
+    position: absolute;
+    border-radius: 7px;
+    margin:auto;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  }
+  @font-face{
+      font-family:'transformers';
+      src:URL('transfrm.ttf')
+  }
+  @font-face{
+      font-family:'montserrat-bold';
+      src:URL('Montserrat-SemiBold.ttf')
+  }
+  @font-face{
+      font-family:'montserrat-medium';
+      src:URL('Montserrat-Medium.ttf')
+  }
+  @font-face{
+      font-family:'montserrat-reg';
+      src:URL('Montserrat-Regular.ttf')
+  }
+  @font-face{
+      font-family:'montserrat-light';
+      src:URL('Montserrat-Light.ttf')
+  }
+  
+  
+  .logintext{
+      font-size: 28px;
+      color:white;
+      font-family:montserrat-bold;
+      height:50%;
+  
+  }
+  .loginpagedata{
+    
+      font-size:17px;
+      font-family:montserrat-medium;
+      font-weight: 100;
+      justify-content: left;
+      color:white;
+  }
+  .hand{
+  
+      width:170px;
+      height:150px;
+      vertical-align: bottom;
+     
+      
+  }
+  
+  label {
+      margin:20px 0;
+      position:relative;
+      display:inline-block;
+    }
+      
+    .inputname {
+      padding:10px;
+      pointer-events: none;
+      position:absolute;
+      left:0;
+      top:0;
+      transition: 0.2s;
+      transition-timing-function: ease;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+      opacity:0.5;
+    }
+    
+    input {
+      /* border-style:ridge; */
+      border:none;
+      border-bottom: 1px groove black;
+      padding: 5px 10px;
+     outline:none;
+      padding:10px;
+      border-width:1px;
+    }
+    
+    input:focus{
+      /* background: #fdd835; */
+      /* outline:none; */
+      /* outline-width:1px; */
+      border-style:none;
+      border-bottom-style: inset;
+      border-bottom-width:4px;
+      border-color: rgba(20,20,20);
+    }
+    input:focus + span, input:not(:placeholder-shown) + span {
+      opacity:0.5;
+     
+      transform: scale(0.75) translateY(-100%) translateX(-30px);
+    }
+    
+    /* For IE Browsers*/
+    input:focus + span, input:not(:-ms-input-placeholder) + span {
+      opacity:1;
+      transform: scale(0.75) translateY(-100%) translateX(-30px);
+  
+    }
+
+
+#gradient_login{
+  /* background:rgb(216,216,216); */
+background-color: rgba(20,20,20);
+}

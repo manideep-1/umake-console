@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "tshirt1",
+    "cost": "$299",
+    "cuttingRate": "$399",
+    "content": "Pastel Beige Half-Sleeves"
+  },
+  {
+    "id": 2,
+    "image": "tshirt2",
+    "cost": "$399",
+    "cuttingRate": "$499",
+    "content": "Jade Blue Half-Sleeves"
+  },
+  {
+    "id": 3,
+    "image": "tshirt3",
+    "cost": "$499",
+    "cuttingRate": "$599",
+    "content": "Yor're Ready Half-Sleeves"
+  },
+  {
+    "id": 4,
+    "image": "tshirt1",
+    "cost": "$299",
+    "cuttingRate": "$399",
+    "content": "Pastel Beige Half-Sleeves"
+  },
+  {
+    "id": 5,
+    "image": "tshirt2",
+    "cost": "$399",
+    "cuttingRate": "$499",
+    "content": "Jade Blue Half-Sleeves"
+  }
+]

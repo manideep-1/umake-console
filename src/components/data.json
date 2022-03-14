@@ -1,0 +1,341 @@
+{
+  "Complete_Address": [
+    {
+      "DeliveryInfo": [
+        {
+          "Recievers_name": "Ravi Chandra",
+          "Phone_number": 8341623000,
+          "Alternate_number": 9849522303
+        }
+      ],
+      "Address": [
+        {
+          "Pincode": 500032,
+          "Addr": "Opposite Platina, Gachibowli, Hari Hara Hostel",
+          "Locality": "Gachibowli",
+          "Landmark": "Beside Yamaha Showroom",
+          "City": "Hyderabad",
+          "Country": "India",
+          "tag": "home"
+        }
+      ]
+    }
+  ],
+  "DeliveryInfo": [
+    {
+      "Recievers_name": "Ravi Chandra",
+      "Phone_number": 8341623000,
+      "Alternate_number": 9849522303,
+      "Pincode": 500032,
+      "Addr": "Opposite Platina, Gachibowli, Hari Hara Hostel",
+      "Locality": "Gachibowli",
+      "Landmark": "Beside Yamaha Showroom",
+      "City": "Hyderabad",
+      "Country": "India",
+      "tag": "home"
+    },
+
+    {
+      "Recievers_name": "Abhishek Chandra",
+      "Phone_number": 8341623000,
+      "Alternate_number": 9849522303,
+      "Pincode": 508213,
+      "Addr": "Opposite Nallalabavi, Suryapet, Hari Hara Hostel",
+      "Locality": "Gachibowli",
+      "Landmark": "Beside Shastra School",
+      "City": "Hyderabad",
+      "Country": "India",
+      "tag": "home"
+    },
+    {
+      "Recievers_name": "Anudeep Chandra",
+      "Phone_number": 8341623000,
+      "Alternate_number": 9849522303,
+      "Pincode": 508213,
+      "Addr": "Opposite Nallalabavi, Suryapet, Hari Hara Hostel",
+      "Locality": "Gachibowli",
+      "Landmark": "Beside Shastra School",
+      "City": "Hyderabad",
+      "Country": "India",
+      "tag": "home"
+    }
+  ],
+  "OrderDetails": [
+    {
+      "OrderName": "Misty white Half Sleeve T-Shirt",
+      "Size": "M",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt1",
+      "OrderId": "13422",
+      "Orderdone": true,
+      "currentPrice": "499",
+      "actualPrice": "549",
+      "discount": "10",
+      "offerPrice": "449",
+      "offer": "WELCOME50",
+      "quantity": "2"
+    },
+    {
+      "OrderName": "Wink New Half T-Shirt",
+      "Size": "L",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt6",
+      "OrderId": "14333",
+      "Orderdone": false,
+      "currentPrice": "449",
+      "actualPrice": "499",
+      "discount": "10",
+      "offerPrice": "399",
+      "offer": "WELCOME50",
+      "quantity": "5"
+    },
+    {
+      "OrderName": "Misty white Half Sleeve T-Shirt",
+      "Size": "L",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt3",
+      "OrderId": "13452",
+      "Orderdone": true,
+      "currentPrice": "399",
+      "actualPrice": "449",
+      "discount": "11",
+      "offerPrice": "349",
+      "offer": "WELCOME50",
+      "quantity": "1"
+    },
+    {
+      "OrderName": "Wink New Half T-Shirt",
+      "Size": "S",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt4",
+      "OrderId": "16745",
+      "Orderdone": true,
+      "currentPrice": "299",
+      "actualPrice": "399",
+      "discount": "25",
+      "offerPrice": "249",
+      "offer": "WELCOME50",
+      "quantity": "10"
+    },
+    {
+      "OrderName": "Misty white Half Sleeve T-Shirt",
+      "Size": "M",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt2",
+      "OrderId": "12543",
+      "Orderdone": false,
+      "currentPrice": "499",
+      "actualPrice": null,
+      "discount": null,
+      "offerPrice": "449",
+      "offer": "WELCOME50",
+      "quantity": "3"
+    },
+    {
+      "OrderName": "Wink New Half T-Shirt",
+      "Size": "S",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt6",
+      "OrderId": "19867",
+      "Orderdone": true,
+      "currentPrice": "499",
+      "actualPrice": "549",
+      "discount": "10",
+      "offerPrice": "449",
+      "offer": "WELCOME50",
+      "quantity": "1"
+    }
+  ],
+
+  "Orders": [
+    {
+      "OrderId": "13422",
+      "Number_of_Orders":
+      [
+
+    {
+      "OrderName": "Wink New Half T-Shirt",
+      "Size": "S",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt4",
+      "Orderdone": true,
+      "currentPrice": "299",
+      "actualPrice": "399",
+      "discount": "25",
+      "offerPrice": "249",
+      "offer": "WELCOME50",
+      "quantity": "10"
+    },
+    {
+      "OrderName": "Misty white Half Sleeve T-Shirt",
+      "Size": "M",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt2",
+      "Orderdone": false,
+      "currentPrice": "499",
+      "actualPrice": null,
+      "discount": null,
+      "offerPrice": "449",
+      "offer": "WELCOME50",
+      "quantity": "3"
+    }]
+
+    },
+    {
+      "OrderId": "13422",
+      "Number_of_Orders":
+      [
+      {
+      "OrderName": "Misty white Half Sleeve T-Shirt",
+      "Size": "M",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt1",
+      "Orderdone": true,
+      "currentPrice": "499",
+      "actualPrice": "549",
+      "discount": "10",
+      "offerPrice": "449",
+      "offer": "WELCOME50",
+      "quantity": "2"
+     },
+  
+    {
+      "OrderName": "Misty white Half Sleeve T-Shirt",
+      "Size": "M",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt2",
+      "Orderdone": false,
+      "currentPrice": "499",
+      "actualPrice": null,
+      "discount": null,
+      "offerPrice": "449",
+      "offer": "WELCOME50",
+      "quantity": "3"
+    },
+    {
+      "OrderName": "Wink New Half T-Shirt",
+      "Size": "S",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt6",
+      "Orderdone": true,
+      "currentPrice": "499",
+      "actualPrice": "549",
+      "discount": "10",
+      "offerPrice": "449",
+      "offer": "WELCOME50",
+      "quantity": "1"
+    }]
+
+    },{
+      "OrderId": "13422",
+      "Number_of_Orders":
+      [
+      {
+      "OrderName": "Misty white Half Sleeve T-Shirt",
+      "Size": "M",
+      "Date": "03 FEB 2020",
+      "OrderImg": "tshirt1",
+      "Orderdone": true,
+      "currentPrice": "499",
+      "actualPrice": "549",
+      "discount": "10",
+      "offerPrice": "449",
+      "offer": "WELCOME50",
+      "quantity": "2"
+     }]
+
+    }],
+
+  "WalletDetails": [
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": true,
+      "Particulars": "Wallet amount expired on 03-05-2020",
+      "Amount": "Rs.100",
+      "ClosingBalance": "Rs.100"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": false,
+      "Particulars": "Wallet amount added on 02-02-2020",
+      "Amount": "Rs.200",
+      "ClosingBalance": "Rs.200"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": true,
+      "Particulars": "Wallet amount expired on 03-05-2020",
+      "Amount": "Rs.100",
+      "ClosingBalance": "Rs.100"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": false,
+      "Particulars": "Wallet amount added on 02-02-2020",
+      "Amount": "Rs.200",
+      "ClosingBalance": "Rs.200"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": true,
+      "Particulars": "Wallet amount expired on 03-05-2020",
+      "Amount": "Rs.100",
+      "ClosingBalance": "Rs.100"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": false,
+      "Particulars": "Wallet amount added on 02-02-2020",
+      "Amount": "Rs.200",
+      "ClosingBalance": "Rs.200"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": true,
+      "Particulars": "Wallet amount expired on 03-05-2020",
+      "Amount": "Rs.100",
+      "ClosingBalance": "Rs.100"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": false,
+      "Particulars": "Wallet amount added on 02-02-2020",
+      "Amount": "Rs.200",
+      "ClosingBalance": "Rs.200"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": true,
+      "Particulars": "Wallet amount expired on 03-05-2020",
+      "Amount": "Rs.100",
+      "ClosingBalance": "Rs.100"
+    },
+    {
+      "Date": "03 FEB 2020",
+      "OrderId": "12543",
+      "Type": "Piggibank Coins",
+      "Money": false,
+      "Particulars": "Wallet amount added on 02-02-2020",
+      "Amount": "Rs.200",
+      "ClosingBalance": "Rs.200"
+    }
+  ]
+}

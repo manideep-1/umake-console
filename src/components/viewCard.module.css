@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "montserrat-medium";
+  src: URL("Montserrat-Medium.ttf");
+}
+  .text{
+  color: white;
+  font-size: 14px;
+  padding-left: 2px;
+
+}
+  .rectangle{
+    height: 20px;
+    width: 80px;
+    background-color: #00CC66;
+  }
+  .triangle {
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 10px solid #00CC66;
+	border-bottom: 10px solid transparent;
+}
+
+heartIcon{
+  -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: orange;
+}

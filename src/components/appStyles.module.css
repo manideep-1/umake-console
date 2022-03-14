@@ -1,0 +1,80 @@
+/* Pop Up Size*/
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+}
+
+#checkedid input[type="radio"] + label:hover {
+  color: rgba(20,20,20);
+}
+#checkedid input[type="radio"]:checked + label {
+  color: rgba(20,20,20);
+}
+
+#option {
+  /* font-weight: 100; */
+  color: #606060;
+  border-radius: 150px;
+  border: 2px solid;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  background-color: white;
+  position: relative;
+}
+
+#option:focus {
+  color: rgba(20,20,20);
+  outline: 0;
+}
+.adddetailsorderinfo {
+  background-color: white;
+  padding: 10px;
+  margin-left: 20px;
+  /* margin-top: 20px; */
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: 1px;
+}
+.shippingDetails {
+  text-transform: uppercase;
+  font-family: montserrat-bold;
+  padding-left: 5px;
+  /* padding-bottom:10px; */
+  font-size: 13px;
+  color: black;
+  display: block;
+}
+.paymentsummaryinfoname {
+  font-family: montserrat-reg;
+  padding-left: 3px;
+  font-size: 12px;
+  display: block;
+}
+.amountpaid {
+  font-family: montserrat-bold;
+  font-style: bold;
+}
+#free {
+  font-family: montserrat-bold;
+  text-transform: uppercase;
+  color: green;
+}
+#close{
+  margin:"5px";
+}
+#close:focus,#close:active {
+  outline: none !important;
+  box-shadow: none;
+}
+#delivery{
+  background:rgb(216,216,216);
+
+}

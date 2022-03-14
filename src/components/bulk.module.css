@@ -1,0 +1,12 @@
+@font-face{
+    font-family:'montserrat-medium';
+    src:URL('Montserrat-Medium.ttf')
+}
+
+#transformers {
+    font-family: transformers;
+  }
+#information{
+    font-family:montserrat-medium;
+      font-weight: 100;
+}

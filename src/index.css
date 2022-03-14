@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: "homoarak";
+  src: local('homoarak'), url(./Fonts/HOMOARAK.TTF) format('truetype');
+}
+@font-face {
+  font-family: "adler";
+  src: local('adler'), url(./Fonts/adler/Adler.ttf) format('truetype');
+}
+@font-face {
+  font-family: "architext";
+  src: local('architext'), url(./Fonts/architext/Architex.ttf) format('truetype');
+}
+@font-face {
+  font-family: "aTheme";
+  src: local('aTheme'), url(./Fonts/a-theme-for-murder/a\ Theme\ for\ murder.ttf) format('truetype');
+}
+@font-face {
+  font-family: "blackchancery";
+  src: local('blackchancery'), url(./Fonts/blackchancery/BLKCHCRY.TTF) format('truetype');
+}
+@font-face {
+  font-family: "burnstown-dam";
+  src: local('burnstown-dam'), url(./Fonts/burnstown-dam/burnstown\ dam.ttf) format('truetype');
+}
+@font-face {
+  font-family: "carnivalee";
+  src: local('carnivalee'), url(./Fonts/carnivalee-freakshow/Carnevalee\ Freakshow.ttf) format('truetype');
+}
+@font-face{
+  font-family: "earwigfactory";
+  src:local('earwigfactory'),url(./Fonts/earwig-factory/earwig\ factory\ rg.ttf) format('truetype')
+}
+@font-face{
+  font-family: "eutemia";
+  src:local('eutemia'),url(./Fonts/eutemia-i/Eutemia.ttf) format('truetype')
+}
+@font-face{
+  font-family: "fakereceipt";
+  src:local('fakereceipt'),url(./Fonts/fake-receipt/fake\ receipt.ttf) format('truetype')
+}
+@font-face{
+  font-family: "goodtimes";
+  src:local('goodtimes'),url(./Fonts/good-times/good\ times\ rg.ttf) format('truetype')
+}
+@font-face{
+  font-family: "gotheroin";
+  src:local('gotheroin'),url(./Fonts/got-heroin/GotHeroin/Got_Heroin.ttf) format('truetype')
+}
+@font-face{
+  font-family: "gypsycurve";
+  src:local('gypsycurve'),url(./Fonts/gypsy-curse/Font2/Gypsy\ Curse.ttf) format('truetype')
+}
+@font-face{
+  font-family: "njnaruto";
+  src:local('njnaruto'),url(./Fonts/ninja-naruto/njnaruto.ttf) format('truetype')
+}
+@font-face{
+  font-family: "piazzolla";
+  src:local('piazzolla'),url(./Fonts/Piazzolla/Piazzolla-Italic-VariableFont_opsz\,wght.ttf) format('truetype')
+}
+@font-face{
+  font-family: "precious";
+  src:local('precious'),url(./Fonts/precious/Precious.ttf) format('truetype')
+}
+@font-face{
+  font-family: "pricedown";
+  src:local('pricedown'),url(./Fonts/pricedown/pricedown\ bl.ttf) format('truetype')
+}
+@font-face{
+  font-family: "quickhand";
+  src:local('quickhand'),url(./Fonts/quikhand/Quikhand.ttf) format('truetype')
+}
+@font-face{
+  font-family: "runytunes";
+  src:local('runytunes'),url(./Fonts/runytunesrevisited/RunyTunesRevisitedNF.ttf) format('truetype')
+}
+@font-face{
+  font-family: "scriptin";
+  src:local('scriptin'),url(./Fonts/scriptina/SCRIPTIN.ttf) format('truetype')
+}
+@font-face{
+  font-family: "still-time";
+  src:local('still-time'),url(./Fonts/still-time/still\ time.ttf) format('truetype')
+}@font-face{
+  font-family: "the-godfather";
+  src:local('the-godfather'),url(./Fonts/the-godfather/TheGodfather-v2.ttf) format('truetype')
+}
+@font-face{
+  font-family: "action-jackson";
+  src:local('action-jackson'),url(./Fonts/action-jackson/actionj.ttf) format('truetype')
+}
+@font-face{
+  font-family: "alanis-hand";
+  src:local('alanis-hand'),url(./Fonts/alanis-hand/AlanisHand.ttf) format('truetype')
+}
+/* @font-face{
+  font-family: "bad-mofo";
+  src:local('bad-mofo'),url(./Fonts/bad-mofo/Bad\ Mofo/.TTF) format('truetype')
+} */
+@font-face{
+  font-family: "bloktype";
+  src:local('bloktype'),url(./Fonts/bloktype/BLOKTYPE.TTF) format('truetype')
+}
+@font-face{
+  font-family: "bricks";
+  src:local('bricks'),url(./Fonts/bricks/BRICK.TTF) format('truetype')
+}
+@font-face{
+  font-family: "cenobyte";
+  src:local('cenobyte'),url(./Fonts/cenobyte/AARCS/Font/cenobyte.ttf) format('truetype')
+}
+@font-face{
+  font-family: "channel-tuning";
+  src:local('channel-tuning'),url(./Fonts/channel-tuning/channelt/chant___.ttf) format('truetype')
+}
+@font-face{
+  font-family: "domestic-manners";
+  src:local('domestic-manners'),url(./Fonts/domestic-manners/Domestic_Manners.ttf) format('truetype')
+}
+@font-face{
+  font-family: "dotty";
+  src:local('dotty'),url(./Fonts/dotty/dotty.ttf) format('truetype')
+}
+@font-face{
+  font-family: "flatline";
+  src:local('flatline'),url(./Fonts/flatline/flatline.ttf) format('truetype')
+}
+@font-face{
+  font-family: "ghastly-panic";
+  src:local('ghastly-panic'),url(./Fonts/ghastly-panic/Font1/Ghastly\ Panic.ttf) format('truetype')
+}
+@font-face{
+  font-family: "guild";
+  src:local('guild'),url(./Fonts/guild-of-professional-actors/guildof.ttf) format('truetype')
+}
+@font-face{
+  font-family: "gyparody";
+  src:local('gyparody'),url(./Fonts/gyparody/gyparody\ hv.ttf) format('truetype')
+}
+/* @font-face{
+  font-family: "haunting-attraction";
+  src:local('haunting-attraction'),url(./Fonts/haunting-attraction/Sinister\ Visions\ Fonts/.TTF) format('truetype')
+} */
+@font-face{
+  font-family: "hvd-peace";
+  src:local('hvd-peace'),url(./Fonts/hvd-peace/HVD_Peace.ttf) format('truetype')
+}
+@font-face{
+  font-family: "hvd-steinzeit";
+  src:local('hvd-steinzeit'),url(./Fonts/hvd-steinzeit/HVD_Steinzeit_PC/HVD_Steinzeit.ttf) format('truetype')
+}
+@font-face{
+  font-family: "if";
+  src:local('if'),url(./Fonts/if/IF/If.ttf) format('truetype')
+}
+@font-face{
+  font-family: "iron-maiden";
+  src:local('iron-maiden'),url(./Fonts/iron-maiden/maiden.TTF) format('truetype')
+}
+@font-face{
+  font-family: "james-almacen";
+  src:local('james-almacen'),url(./Fonts/james-almacen/JamesAlmacen.ttf) format('truetype')
+}
+@font-face{
+  font-family: "jeansunho";
+  src:local('jeansunho'),url(./Fonts/jeansunho/JeanSunHo/JeanSunHo.ttf) format('truetype')
+}
+@font-face{
+  font-family: "jo-wrote";
+  src:local('jo-wrote'),url(./Fonts/jo-wrote-a-lovesong/Jo_wrote_a_lovesong.ttf) format('truetype')
+}
+@font-face{
+  font-family: "metal-lord";
+  src:local('metal-lord'),url(./Fonts/metal-lord/metal\ lord.ttf) format('truetype')
+}
+@font-face{
+  font-family: "mistervampire";
+  src:local('mistervampire'),url(./Fonts/mistervampire/MISTV___.TTF) format('truetype')
+}
+/* @font-face{
+  font-family: "mostlymono";
+  src:local('mostlymono'),url(./Fonts/mostlymono/Mostly\ Mono/.TTF) format('truetype')
+} */
+/* @font-face{
+  font-family: "nekrokids";
+  src:local('nekrokids'),url(./Fonts/nekrokids/Sinister\ Visions\ Fonts/.TTF) format('truetype')
+} */
+@font-face{
+  font-family: "octin-stencil";
+  src:local('octin-stencil'),url(./Fonts/octin-stencil-free/octin\ stencil\ rg.ttf) format('truetype')
+}
+/* @font-face{
+  font-family: "pure-evil";
+  src:local('pure-evil'),url(./Fonts/pure-evil-2/pure\ evil\ 2/.TTF) format('truetype')
+} */
+@font-face{
+  font-family: "rm-serifancy";
+  src:local('rm-serifancy'),url(./Fonts/rm-serifancy/rm_serifancy.ttf) format('truetype')
+}
+@font-face{
+  font-family: "sickness";
+  src:local('sickness'),url(./Fonts/sickness/Sickness.ttf) format('truetype')
+}
+@font-face{
+  font-family: "rm-typerighter";
+  src:local('rm-typerighter'),url(./Fonts/rm-typerighter-medium/rm_typerighter_medium.ttf) format('truetype')
+}
+@font-face{
+  font-family: "spiders";
+  src:local('spiders'),url(./Fonts/spiders/Spiders.ttf) format('truetype')
+}
+@font-face{
+  font-family: "two-turtle";
+  src:local('two-turtle'),url(./Fonts/two-turtle-doves/doves.ttf) format('truetype')
+}
+
+
+
+

@@ -1,0 +1,505 @@
+@media screen and (max-width: 990px) {
+  #pconly {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  #mobonly {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: "transformers";
+  src: URL("transfrm.ttf");
+}
+@font-face {
+  font-family: "montserrat-bold";
+  src: URL("Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "montserrat-medium";
+  src: URL("Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "montserrat-reg";
+  src: URL("Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "montserrat-light";
+  src: URL("Montserrat-Light.ttf");
+}
+
+#sideBtn {
+  background-color: rgba(243, 243, 243, 0.5);
+}
+
+#sideBtn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#sideBtn:hover span {
+  color: white;
+}
+
+#sideBtn:hover div {
+  color: white;
+}
+
+#sideBtn:hover {
+  color: white;
+}
+
+#pconly {
+  background-color: rgba(243, 243, 243, 0.5);
+}
+
+#pconly:hover {
+  width: "80px";
+  height: "120px";
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#pconly:hover span {
+  color: white;
+}
+
+#pconly:hover div {
+  color: white;
+}
+
+#pconly:hover {
+  color: white;
+}
+
+#colorBtn {
+  height: 30px;
+  width: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  cursor: pointer;
+}
+
+#colorBtn:hover {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  border: none;
+}
+
+#feedbackselect {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  /* for Firefox */
+  -moz-appearance: none;
+  cursor: pointer;
+  /* for Chrome */
+  -webkit-appearance: none;
+  background: url(./arrowdownselect.png) no-repeat 96% 50%/12px;
+  font-size: 12px;
+}
+
+#feedbackselect option {
+  padding: 100px;
+}
+
+/* For IE10 */
+#feedbackselect::-ms-expand {
+  display: none;
+}
+
+#fontBox {
+  height: 90px;
+  width: 80px;
+  border: 1px grey solid;
+  cursor: pointer;
+}
+
+#closeBtn {
+  cursor: default;
+  background-color: white;
+  border-radius: 100px;
+  border: 1px #CCCCCC solid;
+  color: red;
+  font-size: 20px;
+  padding: 0 9px;
+  position: absolute;
+  top: -24px;
+  left: -17px;
+}
+
+#closeBtnImg {
+  cursor: default;
+  background-color: white;
+  border-radius: 100px;
+  border: 1px #CCCCCC solid;
+  color: red;
+  font-size: 20px;
+  padding: 0 9px;
+  position: absolute;
+  top: -24px;
+  left: -17px;
+
+}
+
+#tickBtn {
+  cursor: default;
+  border-radius: 1000px;
+  border: 1px #CCCCCC solid;
+  color: green;
+  font-size: 10px;
+  padding: 20 15px;
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+}
+
+#uploadBox {
+  cursor: pointer;
+  background: #292b2c;
+  border-radius: 8px;
+  padding: 50px 50px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  border: 2px white dashed;
+}
+
+#uploadBox div {
+  color: #292b2c;
+}
+
+@font-face {
+  font-family: "montserrat-bold";
+  src: URL("Montserrat-SemiBold.ttf");
+}
+
+#artStyle1 {
+  background-image: linear-gradient(to right, rgb(237, 33, 58), rgb(147, 41, 30));
+  color: #00000055;
+  height: 150px;
+  font-size: 70px;
+}
+
+#artStyle1 p {
+  margin-top: 20px;
+  color: #FFFFFFEE;
+  font-family: montserrat-bold;
+  font-size: 20px;
+}
+
+#artStyle2 {
+  background-image: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
+  color: #00000055;
+  height: 150px;
+  font-size: 70px;
+}
+
+#artStyle2 p {
+  margin-top: 20px;
+  color: #FFFFFFEE;
+  font-family: montserrat-bold;
+  font-size: 20px;
+}
+
+#artStyle3 {
+  background-image: linear-gradient(to right, rgb(41, 185, 106), rgb(109, 250, 226));
+  color: #00000055;
+  height: 150px;
+  font-size: 70px;
+}
+
+#artStyle3 p {
+  margin-top: 20px;
+  color: #FFFFFFEE;
+  font-family: montserrat-bold;
+  font-size: 20px;
+}
+
+#artStyle4 {
+  background-image: linear-gradient(to right, rgb(253, 200, 48), rgb(243, 115, 53));
+  color: #00000055;
+  height: 150px;
+  font-size: 70px;
+}
+
+#artStyle4 p {
+  margin-top: 20px;
+  color: #FFFFFFEE;
+  font-family: montserrat-bold;
+  font-size: 20px;
+}
+
+#artStyle1:hover,
+#artStyle2:hover,
+#artStyle3:hover,
+#artStyle4:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
+
+#minusBtn {
+  color: blue;
+  cursor: default;
+  border-radius: 5px;
+  border: 1px #CCCCCC solid;
+  font-size: 10px;
+  padding: 1px 5px;
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+#plusBtn {
+  color: blue;
+  cursor: default;
+  border-radius: 5px;
+  border: 1px #CCCCCC solid;
+  font-size: 10px;
+  padding: 1px 5px;
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* -----------------------------saved tshirts  -----------------------------------*/
+#dustbin {
+  opacity: 0.8;
+  color: black;
+
+}
+
+#dustbin:hover {
+  color: #d92232;
+  font-size: 20px;
+  opacity: 1;
+}
+
+#box {
+  /* background:rgb(216,216,216);
+
+ */
+background:rgb(216,216,216);
+/* background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+background: -o-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+background: -ms-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+background: -moz-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%); */
+
+
+ /* background: -webkit-linear-gradient(271deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);
+ background: -o-linear-gradient(271deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);
+ background: -ms-linear-gradient(271deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);
+ background: -moz-linear-gradient(271deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);
+ background: linear-gradient(179deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);  */
+}
+
+#cartbox {
+  background:rgb(216,216,216);
+
+}
+
+#box:hover {
+  box-shadow: 0 3px 3px 2px grey;
+  border: 0px groove black;
+  /* background-color:rgba(41,43,44,0.4); */
+}
+
+#arrow:hover {
+  opacity: 1;
+  width: 35px;
+
+}
+
+#arrow {
+  width: 30px;
+}
+
+#edit_saved {
+  background:rgb(216,216,216);
+
+  color: black;
+
+}
+
+#size_btn {
+  border: 2px solid rgba(41,43,44,0.4);
+  color: black;
+}
+
+#edit_saved:hover {
+  
+  background-color: black;
+  
+}
+
+#img_saved:hover {
+  background:rgb(216,216,216);
+
+  ;
+}
+
+#fontStyle {
+  font-size: 21px;
+  font-family: montserrat-bold;
+}
+
+/* orders page */
+#labeldeliveryfailed {
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: montserrat-bold;
+  background-color: #ffefef;
+  color: #d24141;
+}
+
+#labeldeliverysuccess {
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: montserrat-bold;
+  background-color: #e7ffeb;
+  color: #128a27;
+}
+
+#order_info_btn {
+  background:rgb(216,216,216);
+
+  ;
+
+}
+
+
+#image_custom{
+  position: relative;
+  display: inline-block;
+}
+
+/* #image_custom img{
+  height: 100%;
+  width: 100%;
+} */
+
+#boxx {
+  /* background:rgb(216,216,216);
+ */
+  /* background:rgb(216,216,216); */
+  background:rgb(216,216,216);
+
+  /* background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+  background: -o-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+  background: -ms-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+  background: -moz-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(102, 138, 162) 1%, rgb(102, 138, 162) 99%);
+   */
+   /* background-color: rgba(216,216,216); */
+   /* background: -webkit-linear-gradient(271deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);
+ background: -o-linear-gradient(271deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);
+ background: -ms-linear-gradient(271deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);
+ background: -moz-linear-gradient(271deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%);
+ background: linear-gradient(179deg, rgb(255, 255, 255) 0%, rgb(189, 189, 189) 80%, rgb(182, 182, 182) 100%); 
+   */
+
+}
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+
+.reactresizable {
+  position: relative;
+}
+.reactresizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+');
+  background-position: bottom right;
+  padding: 0 3px 3px 0;
+}
+.reactresizable-handle-sw {
+  bottom: 0;
+  left: 0;
+  cursor: sw-resize;
+  transform: rotate(90deg);
+}
+.reactresizable-handle-se {
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
+.reactresizable-handle-nw {
+  top: 0;
+  left: 0;
+  cursor: nw-resize;
+  transform: rotate(180deg);
+}
+.reactresizable-handle-ne {
+  top: 0;
+  right: 0;
+  cursor: ne-resize;
+  transform: rotate(270deg);
+}
+.react-resizable-handle-w,
+.react-resizable-handle-e {
+  top: 50%;
+  margin-top: -10px;
+  cursor: ew-resize;
+}
+.react-resizable-handle-w {
+  left: 0;
+  transform: rotate(135deg);
+}
+.react-resizable-handle-e {
+  right: 0;
+  transform: rotate(315deg);
+}
+.react-resizable-handle-n,
+.react-resizable-handle-s {
+  left: 50%;
+  margin-left: -10px;
+  cursor: ns-resize;
+}
+.react-resizable-handle-n {
+  top: 0;
+  transform: rotate(225deg);
+}
+.react-resizable-handle-s {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+#subCategory{
+  font-size:21px;
+  font-family: "montserrat-reg";
+  cursor: pointer;
+}
+#subCategory:hover{
+  color:#3399ff;
+  background-color: #eeeeee;
+}
+#back_sub{
+  opacity: 0.7;
+}
+#back_sub:hover{
+  opacity: 1;
+}
+#img_subcategory{
+  border:1px #eeeeee solid;
+}
+#img_subcategory:hover{
+  background-color: #eeeeee;
+  cursor: pointer;
+  border:1px #bbbbbb groove;
+}
